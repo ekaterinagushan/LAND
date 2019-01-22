@@ -1,0 +1,28 @@
+* {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.menubar {
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  z-index: 1;
+  width: 100%;
+  background-color: white;
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,.05);
+  align-items: center;
+  height: 20px;
+  padding: 20px;
+}
+
+.logo {
+  width: 200px;
+  margin-left: -25px;
+}
+
+.about {
+  margin-right: 40px;
+  text-decoration: none;
+  color: grey;
+}
