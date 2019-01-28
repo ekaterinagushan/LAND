@@ -10,19 +10,78 @@
   z-index: 1;
   width: 100%;
   background-color: white;
-  box-shadow: 0 2px 4px 0 rgba(0,0,0,.05);
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,0.5);
   align-items: center;
-  height: 20px;
-  padding: 20px;
+  height: 1.250em;
+  padding: 1.250em;
 }
 
 .logo {
-  width: 200px;
-  margin-left: -25px;
+  width: 12.5em;
+  margin-left: -1.550em;
 }
 
 .about {
-  margin-right: 40px;
+  font-family: Roboto;
+  margin-right: 2.5em;
   text-decoration: none;
   color: grey;
+}
+
+.left h2 {
+  font-family: Roboto;
+  position: absolute;
+  top: 4em;
+  left: 2.4em;
+  font-size: 3em;
+}
+
+.left p {
+  font-family: Roboto;
+  position: absolute;
+  line-height: 1.5em;
+  font-size: 1.6em;
+  top: 11em;
+  width: 25em;
+  left: 4.6em;
+  color: #878E88
+}
+
+.left img {
+  position: absolute;
+  top: 4em;
+  left: 40em;
+  width: 42em;
+}
+
+.right img {
+  position: absolute;
+  top: 50em;
+  width: 45em;
+
+
+}
+
+
+
+.right h2 {
+  font-family: Roboto;
+  position: absolute;
+  line-height: 1.5em;
+  top: 16em;
+  left: 13em;
+  font-size: 3em;
+  width: 15em
+}
+
+.right p {
+  font-family: Roboto;
+  position: absolute;
+  line-height: 1.5em;
+  font-size: 1.6em;
+  top: 37em;
+  width: 25em;
+  left: 24.3em;
+  color: #878E88
+
 }
