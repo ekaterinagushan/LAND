@@ -28,6 +28,14 @@
   color: grey;
 }
 
+.content1 {
+  display: flex;
+  position: absolute;
+  width: 200em;
+  height: 48em;
+}
+
+
 .left h2 {
   font-family: Roboto;
   position: absolute;
@@ -36,13 +44,14 @@
   font-size: 3em;
 }
 
-.left p {
+.left
+ p {
   font-family: Roboto;
   position: absolute;
   line-height: 1.5em;
   font-size: 1.6em;
   top: 11em;
-  width: 25em;
+  width: 23em;
   left: 4.6em;
   color: #878E88
 }
@@ -58,8 +67,6 @@
   position: absolute;
   top: 50em;
   width: 45em;
-
-
 }
 
 
@@ -75,7 +82,7 @@
 }
 
 .right p {
-  font-family: Roboto;
+  font-family: Roboto, sans-serif;
   position: absolute;
   line-height: 1.5em;
   font-size: 1.6em;
@@ -84,4 +91,60 @@
   left: 24.3em;
   color: #878E88
 
+}
+
+
+.end h2 {
+  position: absolute;
+  top: 5em;
+  left: 7em;
+  font-family: Roboto, sans-serif;
+  font-size: 2em;
+}
+
+.end p {
+  position: absolute;
+  font-family: Roboto;
+  font-size: 1.6em;
+  width: 30em;
+  left: 12em;
+  line-height: 1.3em;
+  top: 8em;
+  text-align: center;
+  color: #878E88;
+}
+
+.end {
+  position: absolute;
+  top: 92em;
+  width: 500em;
+  height: 40em;
+  background-color: #FCFCFC;
+
+}
+
+.end nav{
+  position: absolute;
+  top: 25em;
+  left: 50em;
+}
+
+
+.end nav .green {
+  width: 15em;
+  height: 2em;
+  font-size: 1.5em;
+  font-family: Roboto, sans-serif;
+  font-weight: bold;
+  color: white;
+  background-color: #64f364;
+  background-image: linear-gradient(to bottom, #64F364 2%, #2BD42B 7%, #01A401 95%, #006900 100%);
+  border-color: #00C000;
+  position: absolute;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 5px;
+  border-width: 1px;
+  border-style: solid;
+  line-height: 50px;
 }
