@@ -3,6 +3,8 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+
+
 .menubar {
   display: flex;
   justify-content: space-between;
@@ -28,13 +30,10 @@
   color: grey;
 }
 
-.content1 {
-  display: flex;
+.left {
   position: absolute;
-  width: 200em;
-  height: 48em;
+  left: 3em;
 }
-
 
 .left h2 {
   font-family: Roboto;
@@ -62,6 +61,11 @@
   top: 4em;
   left: 40em;
   width: 42em;
+}
+
+.right {
+  position: absolute;
+  left: 3em;
 }
 
 .right img {
@@ -103,6 +107,11 @@
   left: 7em;
   font-family: Roboto, sans-serif;
   font-size: 2em;
+}
+
+.end {
+  position: absolute;;
+  left: 3em;
 }
 
 .end p {

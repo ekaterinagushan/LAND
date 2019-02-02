@@ -1,15 +1,40 @@
 @media (max-width: 1439px) and (min-width: 1024px) {
-  .landing .left h2 {
-    top: 2em;
+  .landing .landingWrapper .left  {
+   left: 0em;
+ }
+
+ .landing .landingWrapper .right  {
+   left: 0em;
+ }
+
+ .landing .landingWrapper .next  {
+   left: 0em;
+ }
+
+ .landing .landingWrapper .end  {
+   left: 0em;
+ }
+}
+
+@media (max-width: 767px) and (min-width: 320px) {
+  .landing .landingWrapper .left h2 {
+    font-size: 6em;
+    top: 1em;
     left: 1em;
   }
-
-  .landing .left p {
-    top: 7em;
+  .landing .landingWrapper .left p {
+    font-size: 3em;
+    top: 5em;
+    width: 20em;
     left: 2em;
   }
 
-  .landing .left img {
-    /* left: 20em; */
+  .landing .landingWrapper .left img {
+    left: 35em;
+    top: 30em;
+    width: 50em;
   }
-  }
+
+
+
+}
