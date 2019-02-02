@@ -1,0 +1,15 @@
+@media (max-width: 1439px) and (min-width: 1024px) {
+  .landing .left h2 {
+    top: 2em;
+    left: 1em;
+  }
+
+  .landing .left p {
+    top: 7em;
+    left: 2em;
+  }
+
+  .landing .left img {
+    /* left: 20em; */
+  }
+  }
