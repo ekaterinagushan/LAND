@@ -39,6 +39,7 @@
 .left h2 {
   font-family: Roboto;
   position: absolute;
+  width: 20em;
   top: 4em;
   left: 2.4em;
   font-size: 3em;
