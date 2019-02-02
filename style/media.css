@@ -18,21 +18,21 @@
 
 @media (max-width: 767px) and (min-width: 320px) {
   .landing .landingWrapper .left h2 {
-    font-size: 6em;
-    top: 1em;
-    left: 1em;
+    font-size: 2.5em;
+    top: 2em;
+    left: 0em;
   }
   .landing .landingWrapper .left p {
-    font-size: 3em;
+    /* font-size: 1em; */
     top: 5em;
-    width: 20em;
-    left: 2em;
+    width: 15em;
+    left: 0em;
   }
 
   .landing .landingWrapper .left img {
-    left: 35em;
-    top: 30em;
-    width: 50em;
+    left: -1.5em;
+    top: 22em;
+    width: 25em;
   }
 
 
