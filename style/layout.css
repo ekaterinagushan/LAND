@@ -97,6 +97,7 @@
 .end h2 {
   position: absolute;
   font-family: Roboto;
+  width: 30em;
   top: 5em;
   left: 7em;
   font-family: Roboto, sans-serif;
@@ -118,7 +119,7 @@
 .end {
   position: absolute;
   top: 135em;
-  width: 500em;
+  /* width: 500em; */
   height: 40em;
   background-color: #FCFCFC;
 
@@ -183,7 +184,7 @@
 .next h2 {
   position: absolute;
   font-family: Roboto;
-  width: 100em;
+  width: 30em;
   top: 1em;
   left: 3em;
   font-family: Roboto, sans-serif;
