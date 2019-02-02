@@ -96,6 +96,7 @@
 
 .end h2 {
   position: absolute;
+  font-family: Roboto;
   top: 5em;
   left: 7em;
   font-family: Roboto, sans-serif;
@@ -116,7 +117,7 @@
 
 .end {
   position: absolute;
-  top: 92em;
+  top: 135em;
   width: 500em;
   height: 40em;
   background-color: #FCFCFC;
@@ -126,7 +127,7 @@
 .end nav{
   position: absolute;
   top: 25em;
-  left: 50em;
+  left: 46em;
 }
 
 
@@ -147,4 +148,55 @@
   border-width: 1px;
   border-style: solid;
   line-height: 50px;
+}
+
+.end nav .white {
+  left: -18em;
+  width: 15em;
+  height: 2em;
+  font-size: 1.5em;
+  font-family: Roboto, sans-serif;
+  font-weight: bold;
+  color: grey;
+  background-color: #FFFFFF;
+  border-color: #878E88;
+  position: absolute;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 5px;
+  border-width: 1px;
+  border-style: solid;
+  line-height: 50px;
+}
+
+.next{
+  position: absolute;
+  top: 95em;
+}
+
+.next img {
+  position: absolute;
+  left: 640px;
+  width: 660px;
+}
+
+.next h2 {
+  position: absolute;
+  font-family: Roboto;
+  width: 100em;
+  top: 1em;
+  left: 3em;
+  font-family: Roboto, sans-serif;
+  font-size: 3em;
+}
+
+.next p {
+  position: absolute;
+  font-family: Roboto, sans-serif;
+  font-size: 1.6em;
+  width: 20em;
+  left: 5em;
+  line-height: 1.5em;
+  top: 5em;
+  color: #878E88;
 }
